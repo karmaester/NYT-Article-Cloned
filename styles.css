@@ -49,3 +49,75 @@ body {
   text-transform: uppercase;
   font-size: 11px;
 }
+
+/* -------------------- Main Section --------------- */
+
+.article-title {
+  margin: 50px auto 15px auto;
+  width: 600px;
+}
+
+.main-image {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.main-image img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 15px;
+  line-height: 20px;
+  margin-right: 7px;
+  color: #666;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+figcaption span {
+  font-size: 13px;
+  color: #888888;
+  letter-spacing: 0.13px;
+}
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.main-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+}
+
+/* -------------------- Aside Section --------------- */
+
+aside {
+  width: 210px;
+  margin-right: 0;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.aside-link div {
+  width: 250px;
+  height: 100px;
+}
+
+.aside-link h3 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+.aside-link img {
+  width: 100%;
+}
+
+.aside-link {
+  display: flex;
+  text-decoration: none;
+}
