@@ -129,8 +129,31 @@ figcaption span {
   font-size: 20px;
   line-height: 30px;
   color: #333333;
+  margin-bottom: 20px;
 }
 
+.separation {
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 0px auto 18px;
+}
+ul {
+  list-style: none;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  font-weight: bold;
+}
+.subscribe {
+  display: block;
+  width: 169px;
+  margin: 3px auto 18px auto;
+  color: #326891;
+  font-size: 15px;
+  line-height: 19px;
+  text-decoration: none;
+  font-weight: bold;
+}
 /* -------------------- Aside Section --------------- */
 
 aside {
@@ -149,36 +172,8 @@ aside h5 {
   border-top: 1px solid #eee;
   padding-top: 10px;
 }
-
-.aside-line1,
-.aside-line2,
-.aside-line3 {
-  width: 60px;
-  height: 60px;
-  background-size: cover;
-  display: inline-block;
-}
-
-.aside-line1 {
-  background-image: url(./img/aside-first.jpg);
-}
-
-.aside-line2 {
-  background-image: url(./img/aside-second.jpg);
-}
-
-.aside-line3 {
-  background-image: url(./img/aside-third.jpg);
-}
-
-.aside-link h3 {
-  font-size: 14px;
-  line-height: 17px;
-  color: #333333;
-  font-family: georgia, "times new roman", times, serif;
-  display: inline;
-}
-
-.aside-link {
-  text-decoration: none;
-}
+/* 
+font-size: 14px;
+line-height: 17px;
+color: #333333;
+font-family: georgia, "times new roman", times, serif; */
