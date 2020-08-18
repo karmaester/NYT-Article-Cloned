@@ -177,3 +177,16 @@ font-size: 14px;
 line-height: 17px;
 color: #333333;
 font-family: georgia, "times new roman", times, serif; */
+
+/* -------------------- THE SECOND MAIN ----------------------- */
+
+.second-main {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.second-main h1 {
+  font-size: 20px;
+  font-family: georgia, times "new roman", times, serif;
+}
