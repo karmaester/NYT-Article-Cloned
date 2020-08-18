@@ -53,8 +53,8 @@ body {
 /* -------------------- Main Section --------------- */
 
 .article-title {
-  margin: 50px auto 15px auto;
   width: 600px;
+  margin: 50px auto 15px auto;
 }
 
 .main-image {
@@ -80,9 +80,49 @@ figcaption span {
   color: #888888;
   letter-spacing: 0.13px;
 }
+
 .container {
-  width: 600px;
-  margin: auto;
+  max-width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-left: calc((100% - 600px) / 2);
+}
+
+.container article {
+  max-width: 600px;
+}
+
+.lower-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.social-media-icons i {
+  margin: 0 4px;
+  background-color: #eee;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid #eee;
+}
+
+.social-media-icons i:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.social-media-icons .far {
+  color: rgb(102, 102, 102);
+  font-size: 22px;
+  font-weight: 50;
+  background-color: transparent;
+  border: none;
+}
+
+.social-media-icons .far:hover {
+  color: #eee;
+  cursor: pointer;
 }
 
 .main-text {
@@ -95,15 +135,40 @@ figcaption span {
 
 aside {
   width: 210px;
-  margin-right: 0;
-  margin-left: auto;
+  margin: 0 10px 0 30px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.aside-link div {
-  width: 250px;
-  height: 100px;
+
+aside h5 {
+  margin-bottom: 10px;
+}
+
+.picks {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.aside-line1,
+.aside-line2,
+.aside-line3 {
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  display: inline-block;
+}
+
+.aside-line1 {
+  background-image: url(./img/aside-first.jpg);
+}
+
+.aside-line2 {
+  background-image: url(./img/aside-second.jpg);
+}
+
+.aside-line3 {
+  background-image: url(./img/aside-third.jpg);
 }
 
 .aside-link h3 {
@@ -111,13 +176,9 @@ aside {
   line-height: 17px;
   color: #333333;
   font-family: georgia, "times new roman", times, serif;
-}
-
-.aside-link img {
-  width: 100%;
+  display: inline;
 }
 
 .aside-link {
-  display: flex;
   text-decoration: none;
 }
