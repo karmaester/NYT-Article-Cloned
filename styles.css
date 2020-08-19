@@ -171,12 +171,26 @@ aside h5 {
 .picks {
   border-top: 1px solid #eee;
   padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
 }
-/* 
-font-size: 14px;
-line-height: 17px;
-color: #333333;
-font-family: georgia, "times new roman", times, serif; */
+
+.grid-item {
+  width: 100px;
+}
+
+.grid-item a {
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+.grid-item img {
+  height: 100%;
+}
 
 /* -------------------- THE SECOND MAIN ----------------------- */
 
@@ -189,4 +203,41 @@ font-family: georgia, "times new roman", times, serif; */
 .second-main h1 {
   font-size: 20px;
   font-family: georgia, times "new roman", times, serif;
+}
+
+.wrapper {
+  display: grid;
+  width: 1000px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 155px);
+}
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.box2 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+  width: 1000px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.box3 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.box4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: grid;
+  width: 1000px;
+  grid-template-columns: repeat(4, 1fr);
 }
