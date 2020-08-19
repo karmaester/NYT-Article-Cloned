@@ -206,6 +206,11 @@ aside {
 /* -------------------- THE SECOND MAIN ----------------------- */
 
 .second-main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-article {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
@@ -274,4 +279,11 @@ aside {
 .second-footer p {
   margin-bottom: 100px;
   font-size: 13px;
+}
+
+@media only screen and (min-width: 1400px) {
+  .response {
+    width: 120%;
+    margin: auto -10%;
+  }
 }
