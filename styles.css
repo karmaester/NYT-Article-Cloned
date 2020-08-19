@@ -307,6 +307,84 @@ aside {
 .bottom-button button {
   width: 330px;
 }
+
+/* -------------------- THE MORE ARTICLES DIV ------------------- */
+
+.more-articles {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-div {
+  border-top: 1px solid #000;
+  width: 75%;
+  margin: 0 auto;
+  float: left;
+}
+
+.left-div h2 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.left-div a {
+  text-decoration: none;
+}
+
+.left-div a:visited {
+  color: #000;
+}
+
+.left-div a:hover {
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 272px;
+  height: 320px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.bottom-img-div {
+  width: 272px;
+  height: 181px;
+}
+
+.flex-item img {
+  width: 100%;
+}
+
+.flex-item a {
+  text-decoration: none;
+  color: #121212;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+.more-articles figcaption {
+  font-size: 10px;
+  line-height: 12.3px;
+  text-align: right;
+  margin: 3px 0;
+  color: #999;
+}
+
+.more-articles time {
+  font-size: 10px;
+  line-height: 12.3px;
+  margin: 3px 0;
+  color: #999;
+}
+
+.flex-item a h3 {
+  font-weight: 400;
+}
+
 /* ------------------------ THIS SECTION IS FOR THE SECOND PICTURE ---------------- */
 
 @media only screen and (min-width: 1400px) {
