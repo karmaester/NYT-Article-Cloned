@@ -222,6 +222,11 @@ aside {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 155px);
 }
+
+.description p {
+  margin-right: 20px;
+}
+
 .box1 {
   grid-column-start: 1;
   grid-column-end: 5;
@@ -251,4 +256,22 @@ aside {
   display: grid;
   width: 1000px;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.second-footer {
+  margin-top: 50px;
+}
+
+.second-footer:before {
+  width: 60px;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
+}
+
+.second-footer p {
+  margin-bottom: 100px;
+  font-size: 13px;
 }
