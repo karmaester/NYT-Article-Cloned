@@ -384,7 +384,42 @@ aside {
 .flex-item a h3 {
   font-weight: 400;
 }
+.right-div {
+  width: 24%;
+  float: right;
+  border-top: 1px solid #000;
+}
+.right-div a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 23px;
+  color: #000;
+  text-decoration: none;
+}
 
+.right-div h3 {
+  padding: 12px 0px;
+  font-weight: 400;
+  border-top: 1px solid lightgrey;
+}
+
+.right-div h2 {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.right-div h2 {
+  text-decoration: none;
+}
+
+.right-div h2:visited {
+  color: #000;
+}
+
+.right-div h2:hover {
+  text-decoration: underline;
+}
 /* ------------------------ THIS SECTION IS FOR THE SECOND PICTURE ---------------- */
 
 @media only screen and (min-width: 1400px) {
