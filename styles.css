@@ -8,6 +8,25 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.dec-none {
+  text-decoration: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.black {
+  color: #000;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.georgia {
+  font-family: georgia, "times new roman", times, serif;
+}
 /* -------------------- THE NAVBAR --------------- */
 
 header {
@@ -18,7 +37,6 @@ header {
 }
 
 .navbar {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px 15px;
@@ -29,26 +47,12 @@ header {
   width: 195px;
 }
 
-.left {
-  color: black;
-}
-
 .left * {
   margin: 0 5px;
 }
 
-.left-div a {
-  text-decoration: none;
-}
-
-.left a {
-  text-decoration: none;
-}
-
 .flex-item a {
-  text-decoration: none;
   color: #121212;
-  font-family: georgia, "times new roman", times, serif;
 }
 
 .bottom-of-article a {
@@ -57,20 +61,15 @@ header {
 
 .last-flex-container a {
   font-size: 14px;
-  text-decoration: none;
   padding-top: 5px;
   line-height: 25px;
 }
 
 .picks a {
-  display: flex;
   position: absolute;
-  text-decoration: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .author a {
-  color: #000;
   text-decoration: underline;
   text-decoration-style: dotted;
   font-weight: bold;
@@ -80,8 +79,6 @@ header {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 17px;
   line-height: 23px;
-  color: #000;
-  text-decoration: none;
 }
 
 .left a:visited {
@@ -109,12 +106,7 @@ header {
 
 .main-image {
   max-width: 1200px;
-  width: 100%;
   margin: auto;
-}
-
-.main-image img {
-  width: 100%;
 }
 
 figcaption {
@@ -144,14 +136,11 @@ figcaption span {
 }
 
 .lower-footer {
-  display: flex;
   justify-content: space-between;
   padding: 25px 0;
 }
 
 .author {
-  color: #000;
-  text-decoration: none;
   font-weight: bold;
 }
 
@@ -219,7 +208,6 @@ ul {
   color: #326891;
   font-size: 15px;
   line-height: 19px;
-  text-decoration: none;
   font-weight: bold;
 }
 
@@ -231,7 +219,6 @@ aside {
 }
 
 .aside-articles {
-  width: 100%;
   position: relative;
   top: 1000px;
   z-index: 10;
@@ -244,7 +231,6 @@ aside {
 }
 
 .picks article {
-  width: 100%;
   height: 75px;
   margin-bottom: 15px;
 }
@@ -260,7 +246,6 @@ aside {
   font-weight: lighter;
   max-width: 125px;
   margin-left: 10px;
-  color: #000;
 }
 
 .img-div {
@@ -275,20 +260,9 @@ aside {
 
 /* -------------------- THE SECOND MAIN ----------------------- */
 
-.second-main {
-  width: 100%;
-  margin: 0 auto;
-}
-
 .container-article {
   max-width: 1000px;
-  width: 100%;
   margin: 0 auto;
-}
-
-.second-main h1 {
-  font-size: 20px;
-  font-family: georgia, "times new roman", times, serif;
 }
 
 .wrapper {
@@ -355,7 +329,6 @@ aside {
 }
 
 .video-container {
-  width: 100%;
   height: 0;
   padding-bottom: 56.25%;
   position: relative;
@@ -363,7 +336,6 @@ aside {
 }
 
 .video-container iframe {
-  width: 100%;
   height: 100%;
   position: absolute;
   border: none;
@@ -423,10 +395,6 @@ aside {
   height: 181px;
 }
 
-.flex-item img {
-  width: 100%;
-}
-
 .more-articles figcaption {
   font-size: 10px;
   line-height: 12.3px;
@@ -456,7 +424,6 @@ aside {
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 10px;
-  text-decoration: none;
 }
 
 .right-div h2:visited {
@@ -471,7 +438,6 @@ aside {
 
 .bottom-nav {
   display: inline-block;
-  width: 100%;
 }
 
 .enclosing-div {
@@ -503,7 +469,6 @@ aside {
 .bottom-nav .flex-container a {
   color: #567b95;
   font-size: 11px;
-  text-decoration: none;
   padding-top: 5px;
 }
 
