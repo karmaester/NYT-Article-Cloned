@@ -27,6 +27,7 @@ body {
 .georgia {
   font-family: georgia, "times new roman", times, serif;
 }
+
 /* -------------------- THE NAVBAR --------------- */
 
 header {
@@ -379,7 +380,6 @@ aside {
 }
 
 .flex-container {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -446,7 +446,6 @@ aside {
 }
 
 .last-flex-container {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 15px;
@@ -549,6 +548,8 @@ aside {
   font-size: 11px;
   font-weight: lighter;
 }
+
+/* --------------------------------- Fixed footer ---------------------------- */
 
 .fixed-footer {
   position: sticky;
