@@ -223,10 +223,6 @@ ul {
   font-weight: bold;
 }
 
-.video-container iframe {
-  border: none;
-}
-
 /* -------------------- Aside Section --------------- */
 
 aside {
@@ -370,6 +366,7 @@ aside {
   width: 100%;
   height: 100%;
   position: absolute;
+  border: none;
 }
 
 .bottom-of-article {
