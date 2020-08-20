@@ -105,6 +105,23 @@ figcaption span {
   padding: 25px 0;
 }
 
+.author {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.author a {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  font-weight: bold;
+}
+
+.author a:hover {
+  text-decoration: none;
+}
+
 .social-media-icons i {
   margin: 0 4px;
   background-color: #eee;
@@ -203,6 +220,7 @@ aside {
   font-weight: lighter;
   max-width: 125px;
   margin-left: 10px;
+  color: #000;
 }
 
 .img-div {
@@ -445,6 +463,20 @@ aside {
   margin: 0 auto;
 }
 
+.last-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.last-flex-container a {
+  font-size: 14px;
+  text-decoration: none;
+  padding-top: 5px;
+  line-height: 25px;
+}
+
 .enclosing-div::before {
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
@@ -492,10 +524,53 @@ aside {
   font-size: 13px;
   padding-bottom: 10px;
 }
+.special-section {
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+}
 
-.bottom-nav .enclosing-div .special-ul ul a {
+.bottom-nav .enclosing-div .special-ul {
+  margin-bottom: 20px;
+}
+
+.bottom-nav .enclosing-div .special-ul a {
   font-size: 16px;
   font-weight: bold;
+}
+.bottom-nav .enclosing-div .special-ul svg {
+  width: 15px;
+  padding-top: 8px;
+}
+
+.bottom-nav .enclosing-div .second-special-ul a {
+  font-size: 11px;
+  line-height: 22px;
+}
+
+.line-below {
+  border-bottom: 1px solid lightgray;
+}
+
+.space-above {
+  margin-top: 10px;
+}
+
+/* -------------------------------- The footer ---------------------------- */
+.final-footer {
+  width: 80%;
+  margin: 0 auto 20px auto;
+  border-top: 1px solid lightgrey;
+}
+.final-footer ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 70px 0 70px;
+}
+
+.final-footer li {
+  color: #666666;
+  font-size: 11px;
+  font-weight: lighter;
 }
 
 /* ------------------------ THIS SECTION IS FOR THE SECOND PICTURE ---------------- */
