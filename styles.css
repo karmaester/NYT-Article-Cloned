@@ -37,8 +37,22 @@ header {
   margin: 0 5px;
 }
 
+.left-div a {
+  text-decoration: none;
+}
+
 .left a {
   text-decoration: none;
+}
+
+.flex-item a {
+  text-decoration: none;
+  color: #121212;
+  font-family: georgia, "times new roman", times, serif;
+}
+
+.bottom-of-article a {
+  color: rgb(102, 102, 102);
 }
 
 .picks a {
@@ -53,6 +67,14 @@ header {
   text-decoration: underline;
   text-decoration-style: dotted;
   font-weight: bold;
+}
+
+.right-div a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 23px;
+  color: #000;
+  text-decoration: none;
 }
 
 .left a:visited {
@@ -172,7 +194,7 @@ figcaption span {
 .separation {
   width: 72px;
   border-bottom: 1px solid rgb(204, 204, 204);
-  margin: 0px auto 18px auto;
+  margin: 0 auto 18px auto;
 }
 
 ul {
@@ -218,6 +240,12 @@ aside {
   width: 100%;
   height: 75px;
   margin-bottom: 15px;
+}
+
+.right-div h3 {
+  padding: 12px 0px;
+  font-weight: 400;
+  border-top: 1px solid lightgrey;
 }
 
 .picks a h3 {
@@ -273,6 +301,7 @@ aside {
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
 .box2 {
   grid-column-start: 1;
   grid-column-end: 5;
@@ -282,12 +311,14 @@ aside {
   width: 1000px;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .box3 {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 4;
 }
+
 .box4 {
   grid-column-start: 1;
   grid-column-end: 5;
@@ -302,7 +333,7 @@ aside {
   margin-top: 50px;
 }
 
-.second-footer:before {
+.second-footer::before {
   width: 60px;
   content: "";
   display: inline-block;
@@ -336,10 +367,6 @@ aside {
   color: rgb(102, 102, 102);
 }
 
-.bottom-of-article a {
-  color: rgb(102, 102, 102);
-}
-
 .bottom-button button {
   width: 330px;
 }
@@ -361,10 +388,6 @@ aside {
 .left-div h2 {
   font-size: 16px;
   margin-top: 20px;
-}
-
-.left-div a {
-  text-decoration: none;
 }
 
 .left-div a:visited {
@@ -396,12 +419,6 @@ aside {
   width: 100%;
 }
 
-.flex-item a {
-  text-decoration: none;
-  color: #121212;
-  font-family: georgia, "times new roman", times, serif;
-}
-
 .more-articles figcaption {
   font-size: 10px;
   line-height: 12.3px;
@@ -420,23 +437,11 @@ aside {
 .flex-item a h3 {
   font-weight: 400;
 }
+
 .right-div {
   width: 24%;
   float: right;
   border-top: 1px solid #000;
-}
-.right-div a {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 17px;
-  line-height: 23px;
-  color: #000;
-  text-decoration: none;
-}
-
-.right-div h3 {
-  padding: 12px 0px;
-  font-weight: 400;
-  border-top: 1px solid lightgrey;
 }
 
 .right-div h2 {
