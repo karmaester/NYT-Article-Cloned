@@ -223,6 +223,10 @@ ul {
   font-weight: bold;
 }
 
+.video-container iframe {
+  border: none;
+}
+
 /* -------------------- Aside Section --------------- */
 
 aside {
