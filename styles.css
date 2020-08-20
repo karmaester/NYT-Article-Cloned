@@ -55,6 +55,13 @@ header {
   color: rgb(102, 102, 102);
 }
 
+.last-flex-container a {
+  font-size: 14px;
+  text-decoration: none;
+  padding-top: 5px;
+  line-height: 25px;
+}
+
 .picks a {
   display: flex;
   position: absolute;
@@ -243,7 +250,7 @@ aside {
 }
 
 .right-div h3 {
-  padding: 12px 0px;
+  padding: 12px 0;
   font-weight: 400;
   border-top: 1px solid lightgrey;
 }
@@ -448,9 +455,6 @@ aside {
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 10px;
-}
-
-.right-div h2 {
   text-decoration: none;
 }
 
@@ -481,13 +485,6 @@ aside {
   margin-bottom: 15px;
 }
 
-.last-flex-container a {
-  font-size: 14px;
-  text-decoration: none;
-  padding-top: 5px;
-  line-height: 25px;
-}
-
 .enclosing-div::before {
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
@@ -509,6 +506,11 @@ aside {
   padding-top: 5px;
 }
 
+.bottom-nav .enclosing-div ul a {
+  color: #000;
+  font-weight: 500;
+}
+
 .bottom-nav .flex-container a:visited {
   color: #567b95;
 }
@@ -521,9 +523,14 @@ aside {
   text-align: start;
 }
 
-.bottom-nav .enclosing-div ul a {
-  color: #000;
-  font-weight: 500;
+.bottom-nav .enclosing-div .special-ul a {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bottom-nav .enclosing-div .second-special-ul a {
+  font-size: 11px;
+  line-height: 22px;
 }
 
 .bottom-nav .enclosing-div ul a:visited {
@@ -535,6 +542,7 @@ aside {
   font-size: 13px;
   padding-bottom: 10px;
 }
+
 .special-section {
   border-left: 1px solid lightgray;
   padding-left: 15px;
@@ -544,18 +552,9 @@ aside {
   margin-bottom: 20px;
 }
 
-.bottom-nav .enclosing-div .special-ul a {
-  font-size: 16px;
-  font-weight: bold;
-}
 .bottom-nav .enclosing-div .special-ul svg {
   width: 15px;
   padding-top: 8px;
-}
-
-.bottom-nav .enclosing-div .second-special-ul a {
-  font-size: 11px;
-  line-height: 22px;
 }
 
 .line-below {
@@ -572,6 +571,7 @@ aside {
   margin: 0 auto 20px auto;
   border-top: 1px solid lightgrey;
 }
+
 .final-footer ul {
   display: flex;
   justify-content: space-between;
@@ -579,7 +579,7 @@ aside {
 }
 
 .final-footer li {
-  color: #666666;
+  color: #666;
   font-size: 11px;
   font-weight: lighter;
 }
