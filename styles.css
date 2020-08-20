@@ -585,6 +585,39 @@ aside {
   font-weight: lighter;
 }
 
+.fixed-footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #000;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px 30px;
+  z-index: 50;
+}
+
+.fixed-footer:hover {
+  cursor: pointer;
+}
+
+.fixed-footer div:first-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fixed-footer div:last-child {
+  position: relative;
+  left: 35%;
+  width: 100px;
+  display: inline-flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
 /* ------------------------ THIS SECTION IS FOR THE SECOND PICTURE ---------------- */
 
 @media only screen and (min-width: 1400px) {
