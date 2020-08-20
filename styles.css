@@ -10,6 +10,12 @@ body {
 
 /* -------------------- THE NAVBAR --------------- */
 
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -105,6 +111,12 @@ figcaption span {
   border-radius: 50%;
   padding: 5px;
   border: 1px solid #eee;
+}
+
+.social-media-icons .fa-facebook-f {
+  width: 26px;
+  height: 26px;
+  padding: 4px 0 0 6px;
 }
 
 .social-media-icons i:hover {
@@ -420,6 +432,72 @@ aside {
 .right-div h2:hover {
   text-decoration: underline;
 }
+
+/* ----------------------- BOTTOM NAVBAR --------------------- */
+
+.bottom-nav {
+  display: inline-block;
+  width: 100%;
+}
+
+.enclosing-div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.enclosing-div::before {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 0 0 15px 0;
+}
+
+.bottom-nav .flex-container {
+  justify-content: space-between;
+}
+
+.bottom-nav .flex-container a {
+  color: #567b95;
+  font-size: 11px;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.bottom-nav .flex-container a:visited {
+  color: #567b95;
+}
+
+.bottom-sections-container {
+  margin-top: 15px;
+}
+
+.enclosing-div ul {
+  text-align: start;
+}
+
+.bottom-nav .enclosing-div ul a {
+  color: #000;
+  font-weight: 500;
+}
+
+.bottom-nav .enclosing-div ul a:visited {
+  color: #000;
+  font-weight: 500;
+}
+
+.enclosing-div section h3 {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.bottom-nav .enclosing-div .special-ul ul a {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 /* ------------------------ THIS SECTION IS FOR THE SECOND PICTURE ---------------- */
 
 @media only screen and (min-width: 1400px) {
