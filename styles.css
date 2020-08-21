@@ -60,6 +60,16 @@ header {
   margin: 0 5px;
 }
 
+.left button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.left button:hover {
+  cursor: pointer;
+}
+
 .flex-item a {
   color: #121212;
 }
