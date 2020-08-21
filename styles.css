@@ -72,6 +72,14 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.border-none {
+  border: none;
+}
+
+.color-102 {
+  color: rgb(102, 102, 102);
+}
+
 /* -------------------- THE NAVBAR --------------- */
 
 header {
@@ -96,7 +104,6 @@ header {
 }
 
 .left button {
-  border: none;
   outline: none;
   background: none;
 }
@@ -107,10 +114,6 @@ header {
 
 .flex-item a {
   color: #121212;
-}
-
-.bottom-of-article a {
-  color: rgb(102, 102, 102);
 }
 
 .last-flex-container a {
@@ -141,7 +144,6 @@ header {
   background-color: #567b95;
   color: #fff;
   padding: 11px 12px 8px 12px;
-  border: none;
   border-radius: 3px;
   font-weight: 600;
   text-transform: uppercase;
@@ -210,11 +212,9 @@ figcaption span {
 }
 
 .social-media-icons .far {
-  color: rgb(102, 102, 102);
   font-size: 22px;
   font-weight: 50;
   background-color: transparent;
-  border: none;
 }
 
 .social-media-icons .far:hover {
@@ -318,12 +318,6 @@ aside {
 .box2 {
   grid-row-start: 2;
   grid-row-end: 3;
-<<<<<<< HEAD
-  width: 1000px;
-  grid-template-columns: repeat(4, 1fr);
-=======
-  display: grid;
->>>>>>> 0e5bbd5a3195e1169e3d1ed7805a55a44333e30b
 }
 
 .box3 {
@@ -334,12 +328,6 @@ aside {
 .box4 {
   grid-row-start: 4;
   grid-row-end: 5;
-<<<<<<< HEAD
-  width: 1000px;
-  grid-template-columns: repeat(4, 1fr);
-=======
-  display: grid;
->>>>>>> 0e5bbd5a3195e1169e3d1ed7805a55a44333e30b
 }
 
 .second-footer {
@@ -370,13 +358,11 @@ aside {
 .video-container iframe {
   height: 100%;
   position: absolute;
-  border: none;
 }
 
 .bottom-of-article {
   font-size: 12px;
   line-height: 16px;
-  color: rgb(102, 102, 102);
 }
 
 .bottom-button button {
@@ -557,7 +543,6 @@ aside {
 
 .final-footer li {
   color: #666;
-  font-size: 11px;
   font-weight: lighter;
 }
 
@@ -591,7 +576,6 @@ aside {
   left: 35%;
   width: 100px;
   display: inline-flex;
-  font-weight: bold;
 }
 
 /* ------------------------ THIS SECTION IS FOR THE SECOND PICTURE ---------------- */
