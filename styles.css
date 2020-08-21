@@ -1,0 +1,590 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.dec-none {
+  text-decoration: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-1000 {
+  width: 1000px;
+}
+
+.black {
+  color: #000;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.georgia {
+  font-family: georgia, "times new roman", times, serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.fs-11px {
+  font-size: 11px;
+}
+
+.grid-area {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.fs-16px {
+  font-size: 16px;
+}
+
+.fs-15px {
+  font-size: 15px;
+}
+
+.fs-13px {
+  font-size: 13px;
+}
+
+.grid-col-rep4-1fr {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.border-none {
+  border: none;
+}
+
+.color-102 {
+  color: rgb(102, 102, 102);
+}
+
+/* -------------------- THE NAVBAR --------------- */
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 30;
+}
+
+.navbar {
+  align-items: center;
+  padding: 5px 15px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.nyt-logo {
+  width: 195px;
+}
+
+.left * {
+  margin: 0 5px;
+}
+
+.left button {
+  outline: none;
+  background: none;
+}
+
+.right button {
+  margin: 0 5px;
+  background-color: #567b95;
+  color: #fff;
+  padding: 11px 12px 8px 12px;
+  border-radius: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bottom-button button {
+  width: 330px;
+}
+
+.left button:hover {
+  cursor: pointer;
+}
+
+.flex-item a {
+  color: #121212;
+}
+
+.last-flex-container a {
+  padding-top: 5px;
+  line-height: 25px;
+}
+
+.picks a {
+  position: absolute;
+}
+
+.author a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.right-div a {
+  font-size: 17px;
+  line-height: 23px;
+}
+
+.left a:visited {
+  color: black;
+}
+
+/* -------------------- Main Section --------------- */
+
+.article-title {
+  width: 600px;
+  margin: 50px auto 15px auto;
+}
+
+.main-image {
+  max-width: 1200px;
+  margin: auto;
+}
+
+figcaption {
+  line-height: 20px;
+  margin-right: 7px;
+  color: #666;
+}
+
+figcaption span {
+  color: #888;
+  letter-spacing: 0.13px;
+}
+
+.container {
+  max-width: 100%;
+  margin-top: 50px;
+  grid-template-columns: 2fr 1fr;
+  margin-left: calc((100% - 600px) / 2);
+}
+
+.container > div {
+  max-width: 600px;
+}
+
+.lower-footer {
+  padding: 25px 0;
+}
+
+.author a:hover {
+  text-decoration: none;
+}
+
+.social-media-icons i {
+  margin: 0 4px;
+  background-color: #eee;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid #eee;
+}
+
+.social-media-icons .fa-facebook-f {
+  width: 26px;
+  height: 26px;
+  padding: 4px 0 0 6px;
+}
+
+.social-media-icons i:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.social-media-icons .far {
+  font-size: 22px;
+  font-weight: 50;
+  background-color: transparent;
+}
+
+.social-media-icons .far:hover {
+  color: #eee;
+  cursor: pointer;
+}
+
+.main-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.separation {
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 0 auto 18px auto;
+}
+
+ul {
+  list-style: none;
+  line-height: 19px;
+  text-align: center;
+}
+
+.subscribe {
+  display: block;
+  width: 169px;
+  margin: 3px auto 18px auto;
+  color: #326891;
+  line-height: 19px;
+}
+
+/* -------------------- Aside Section --------------- */
+
+aside {
+  width: 210px;
+  margin-left: 30px;
+}
+
+.aside-articles {
+  position: relative;
+  top: 1000px;
+  z-index: 10;
+}
+
+.aside-title {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.picks article {
+  height: 75px;
+  margin-bottom: 15px;
+}
+
+.right-div h3 {
+  padding: 12px 0;
+  font-weight: 400;
+  border-top: 1px solid lightgrey;
+}
+
+.picks a h3 {
+  font-size: 14px;
+  font-weight: lighter;
+  max-width: 125px;
+  margin-left: 10px;
+}
+
+.img-div {
+  min-width: 75px;
+  min-height: 75px;
+}
+
+.img-div img {
+  width: 75px;
+  height: 75px;
+}
+
+/* -------------------- THE SECOND MAIN ----------------------- */
+
+.container-article {
+  max-width: 1000px;
+}
+
+.wrapper {
+  grid-template-rows: repeat(4, 155px);
+}
+
+.description p {
+  margin-right: 20px;
+}
+
+.box1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.box2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.box3 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.box4 {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.second-footer {
+  margin-top: 50px;
+}
+
+.second-footer::before {
+  width: 60px;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
+}
+
+.second-footer p {
+  margin-bottom: 100px;
+}
+
+.video-container {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  z-index: 10;
+}
+
+.video-container iframe {
+  height: 100%;
+  position: absolute;
+}
+
+.bottom-of-article {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* -------------------- THE MORE ARTICLES DIV ------------------- */
+
+.more-articles {
+  max-width: 1200px;
+}
+
+.left-div {
+  border-top: 1px solid #000;
+  width: 75%;
+  float: left;
+}
+
+.left-div h2 {
+  margin-top: 20px;
+}
+
+.left-div a:visited {
+  color: #000;
+}
+
+.left-div a:hover {
+  text-decoration: underline;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 272px;
+  height: 320px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.bottom-img-div {
+  width: 272px;
+  height: 181px;
+}
+
+.more-articles figcaption {
+  font-size: 10px;
+  line-height: 12.3px;
+  text-align: right;
+  margin: 3px 0;
+  color: #999;
+}
+
+.more-articles time {
+  font-size: 10px;
+  line-height: 12.3px;
+  margin: 3px 0;
+  color: #999;
+}
+
+.flex-item a h3 {
+  font-weight: 400;
+}
+
+.right-div {
+  width: 24%;
+  float: right;
+  border-top: 1px solid #000;
+}
+
+.right-div h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.right-div h2:visited {
+  color: #000;
+}
+
+.right-div h2:hover {
+  text-decoration: underline;
+}
+
+/* ----------------------- BOTTOM NAVBAR --------------------- */
+
+.bottom-nav {
+  display: inline-block;
+}
+
+.enclosing-div {
+  width: 80%;
+}
+
+.last-flex-container {
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.enclosing-div::before {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 0 0 15px 0;
+}
+
+.bottom-nav .flex-container a {
+  color: #567b95;
+  padding-top: 5px;
+}
+
+.bottom-nav .enclosing-div ul a {
+  color: #000;
+}
+
+.bottom-nav .flex-container a:visited {
+  color: #567b95;
+}
+
+.bottom-sections-container {
+  margin-top: 15px;
+}
+
+.enclosing-div ul {
+  text-align: start;
+}
+
+.bottom-nav .enclosing-div .second-special-ul a {
+  line-height: 22px;
+}
+
+.bottom-nav .enclosing-div ul a:visited {
+  color: #000;
+}
+
+.enclosing-div section h3 {
+  padding-bottom: 10px;
+}
+
+.special-section {
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+}
+
+.bottom-nav .enclosing-div .special-ul {
+  margin-bottom: 20px;
+}
+
+.bottom-nav .enclosing-div .special-ul svg {
+  width: 15px;
+  padding-top: 8px;
+}
+
+.line-below {
+  border-bottom: 1px solid lightgray;
+}
+
+.space-above {
+  margin-top: 10px;
+}
+
+/* -------------------------------- The footer ---------------------------- */
+.final-footer {
+  width: 80%;
+  margin: 0 auto 20px auto;
+  border-top: 1px solid lightgrey;
+}
+
+.final-footer ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 70px 0 70px;
+}
+
+.final-footer li {
+  color: #666;
+  font-weight: lighter;
+}
+
+/* --------------------------------- Fixed footer ---------------------------- */
+
+.fixed-footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #000;
+  text-align: center;
+  padding: 15px 30px;
+  z-index: 50;
+}
+
+.fixed-footer:hover {
+  cursor: pointer;
+}
+
+.fixed-footer div:first-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fixed-footer div:last-child {
+  position: relative;
+  left: 35%;
+  width: 100px;
+  display: inline-flex;
+}
+
+/* ------------------------ THIS SECTION IS FOR THE SECOND PICTURE ---------------- */
+
+@media only screen and (min-width: 1400px) {
+  .response {
+    width: 120%;
+    margin: auto -10%;
+  }
+}
