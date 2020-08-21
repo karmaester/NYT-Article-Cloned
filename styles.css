@@ -113,6 +113,20 @@ header {
   background: none;
 }
 
+.right button {
+  margin: 0 5px;
+  background-color: #567b95;
+  color: #fff;
+  padding: 11px 12px 8px 12px;
+  border-radius: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bottom-button button {
+  width: 330px;
+}
+
 .left button:hover {
   cursor: pointer;
 }
@@ -142,16 +156,6 @@ header {
 
 .left a:visited {
   color: black;
-}
-
-.right button {
-  margin: 0 5px;
-  background-color: #567b95;
-  color: #fff;
-  padding: 11px 12px 8px 12px;
-  border-radius: 3px;
-  font-weight: 600;
-  text-transform: uppercase;
 }
 
 /* -------------------- Main Section --------------- */
@@ -366,10 +370,6 @@ aside {
 .bottom-of-article {
   font-size: 12px;
   line-height: 16px;
-}
-
-.bottom-button button {
-  width: 330px;
 }
 
 /* -------------------- THE MORE ARTICLES DIV ------------------- */
