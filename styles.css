@@ -60,12 +60,17 @@ body {
   grid-column-start: 1;
   grid-column-end: 5;
 }
+
 .fs-16px {
   font-size: 16px;
 }
 
 .fs-15px {
   font-size: 15px;
+}
+
+.fs-13px {
+  font-size: 13px;
 }
 
 .grid-col-rep4-1fr {
@@ -168,7 +173,6 @@ figcaption {
 }
 
 figcaption span {
-  font-size: 13px;
   color: #888;
   letter-spacing: 0.13px;
 }
@@ -345,7 +349,6 @@ aside {
 
 .second-footer p {
   margin-bottom: 100px;
-  font-size: 13px;
 }
 
 .video-container {
@@ -502,7 +505,6 @@ aside {
 }
 
 .enclosing-div section h3 {
-  font-size: 13px;
   padding-bottom: 10px;
 }
 
