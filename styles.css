@@ -28,6 +28,14 @@ body {
   font-family: georgia, "times new roman", times, serif;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
 /* -------------------- THE NAVBAR --------------- */
 
 header {
@@ -73,11 +81,9 @@ header {
 .author a {
   text-decoration: underline;
   text-decoration-style: dotted;
-  font-weight: bold;
 }
 
 .right-div a {
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 17px;
   line-height: 23px;
 }
@@ -115,7 +121,6 @@ figcaption {
   line-height: 20px;
   margin-right: 7px;
   color: #666;
-  font-family: georgia, "times new roman", times, serif;
 }
 
 figcaption span {
@@ -139,10 +144,6 @@ figcaption span {
 .lower-footer {
   justify-content: space-between;
   padding: 25px 0;
-}
-
-.author {
-  font-weight: bold;
 }
 
 .author a:hover {
@@ -199,7 +200,6 @@ ul {
   font-size: 15px;
   line-height: 19px;
   text-align: center;
-  font-weight: bold;
 }
 
 .subscribe {
@@ -209,7 +209,6 @@ ul {
   color: #326891;
   font-size: 15px;
   line-height: 19px;
-  font-weight: bold;
 }
 
 /* -------------------- Aside Section --------------- */
@@ -473,7 +472,6 @@ aside {
 
 .bottom-nav .enclosing-div ul a {
   color: #000;
-  font-weight: 500;
 }
 
 .bottom-nav .flex-container a:visited {
@@ -490,7 +488,6 @@ aside {
 
 .bottom-nav .enclosing-div .special-ul a {
   font-size: 16px;
-  font-weight: bold;
 }
 
 .bottom-nav .enclosing-div .second-special-ul a {
@@ -500,7 +497,6 @@ aside {
 
 .bottom-nav .enclosing-div ul a:visited {
   color: #000;
-  font-weight: 500;
 }
 
 .enclosing-div section h3 {
