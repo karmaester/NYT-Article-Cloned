@@ -60,12 +60,17 @@ body {
   grid-column-start: 1;
   grid-column-end: 5;
 }
+
 .fs-16px {
   font-size: 16px;
 }
 
 .fs-15px {
   font-size: 15px;
+}
+
+.fs-13px {
+  font-size: 13px;
 }
 
 .grid-col-rep4-1fr {
@@ -166,7 +171,6 @@ figcaption {
 }
 
 figcaption span {
-  font-size: 13px;
   color: #888;
   letter-spacing: 0.13px;
 }
@@ -318,12 +322,6 @@ aside {
 .box2 {
   grid-row-start: 2;
   grid-row-end: 3;
-<<<<<<< HEAD
-  width: 1000px;
-  grid-template-columns: repeat(4, 1fr);
-=======
-  display: grid;
->>>>>>> 0e5bbd5a3195e1169e3d1ed7805a55a44333e30b
 }
 
 .box3 {
@@ -334,12 +332,6 @@ aside {
 .box4 {
   grid-row-start: 4;
   grid-row-end: 5;
-<<<<<<< HEAD
-  width: 1000px;
-  grid-template-columns: repeat(4, 1fr);
-=======
-  display: grid;
->>>>>>> 0e5bbd5a3195e1169e3d1ed7805a55a44333e30b
 }
 
 .second-footer {
@@ -357,7 +349,6 @@ aside {
 
 .second-footer p {
   margin-bottom: 100px;
-  font-size: 13px;
 }
 
 .video-container {
@@ -516,7 +507,6 @@ aside {
 }
 
 .enclosing-div section h3 {
-  font-size: 13px;
   padding-bottom: 10px;
 }
 
