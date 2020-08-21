@@ -36,6 +36,26 @@ body {
   font-weight: 300;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.fs-11px {
+  font-size: 11px;
+}
+
+.grid-area {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
 /* -------------------- THE NAVBAR --------------- */
 
 header {
@@ -46,7 +66,6 @@ header {
 }
 
 .navbar {
-  justify-content: space-between;
   align-items: center;
   padding: 5px 15px;
   border-bottom: 1px solid #e2e2e2;
@@ -79,7 +98,6 @@ header {
 }
 
 .last-flex-container a {
-  font-size: 14px;
   padding-top: 5px;
   line-height: 25px;
 }
@@ -111,7 +129,6 @@ header {
   border-radius: 3px;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 11px;
 }
 
 /* -------------------- Main Section --------------- */
@@ -142,7 +159,6 @@ figcaption span {
 .container {
   max-width: 100%;
   margin-top: 50px;
-  display: grid;
   grid-template-columns: 2fr 1fr;
   margin-left: calc((100% - 600px) / 2);
 }
@@ -152,7 +168,6 @@ figcaption span {
 }
 
 .lower-footer {
-  justify-content: space-between;
   padding: 25px 0;
 }
 
@@ -272,11 +287,9 @@ aside {
 
 .container-article {
   max-width: 1000px;
-  margin: 0 auto;
 }
 
 .wrapper {
-  display: grid;
   width: 1000px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 155px);
@@ -287,35 +300,25 @@ aside {
 }
 
 .box1 {
-  grid-column-start: 1;
-  grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
 .box2 {
-  grid-column-start: 1;
-  grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
-  display: grid;
   width: 1000px;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .box3 {
-  grid-column-start: 1;
-  grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 4;
 }
 
 .box4 {
-  grid-column-start: 1;
-  grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 5;
-  display: grid;
   width: 1000px;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -365,13 +368,11 @@ aside {
 
 .more-articles {
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 .left-div {
   border-top: 1px solid #000;
   width: 75%;
-  margin: 0 auto;
   float: left;
 }
 
@@ -451,12 +452,10 @@ aside {
 
 .enclosing-div {
   width: 80%;
-  margin: 0 auto;
 }
 
 .last-flex-container {
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-bottom: 15px;
 }
 
@@ -470,13 +469,8 @@ aside {
   margin: 0 0 15px 0;
 }
 
-.bottom-nav .flex-container {
-  justify-content: space-between;
-}
-
 .bottom-nav .flex-container a {
   color: #567b95;
-  font-size: 11px;
   padding-top: 5px;
 }
 
@@ -501,7 +495,6 @@ aside {
 }
 
 .bottom-nav .enclosing-div .second-special-ul a {
-  font-size: 11px;
   line-height: 22px;
 }
 
@@ -586,7 +579,6 @@ aside {
   left: 35%;
   width: 100px;
   display: inline-flex;
-  justify-content: space-between;
   font-weight: bold;
 }
 

@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar d-flex">
+      <nav class="navbar d-flex space-between">
         <div class="left black">
           <button type="menu"><i class="fas fa-bars"></i></button>
           <i class="fas fa-search"></i>
@@ -26,8 +26,8 @@
           </div>
         </a>
         <div class="right">
-          <button type="button">Subscribe Now</button>
-          <button type="button">Log In</button>
+          <button type="button fs-11px">Subscribe Now</button>
+          <button type="button fs-11px">Log In</button>
         </div>
       </nav>
     </header>
@@ -45,13 +45,13 @@
           <span>Rick Friedman for The New York Times</span>
         </figcaption>
       </figure>
-      <div class="container">
+      <div class="container d-grid">
         <div>
           <footer>
             <span class="author bold black"
               >By <a class="dec-none black" href="#">Dennis Overbye</a></span
             >
-            <div class="lower-footer d-flex">
+            <div class="lower-footer d-flex space-between">
               <time datetime="2014-03-17">March 17, 2014</time>
 
               <div class="social-media-icons">
@@ -207,7 +207,7 @@
           </div>
         </aside>
       </div>
-      <div class="container-article w-100">
+      <div class="container-article w-100 m-0-auto">
         <h1 class="second-article-title">
           The Theory of Inflation
         </h1>
@@ -217,11 +217,11 @@
             which explains how the universe expanded so uniformly and so quickly
             in the instant after the Big Bang 13.8 billion years ago.
           </figcaption>
-          <div class="wrapper">
-            <div class="box1">
+          <div class="wrapper d-grid">
+            <div class="box1 grid-area">
               <img class="w-100" src="./img/above.jpg" alt="" />
             </div>
-            <div class="box2">
+            <div class="box2 d-grid grid-area">
               <div class="description">
                 <p>
                   THE UNIVERSE is just under 14 billion years old. From our
@@ -257,10 +257,10 @@
                 </p>
               </div>
             </div>
-            <div class="box3">
+            <div class="box3 grid-area">
               <img class="w-100" src="./img/below.jpg" alt="" />
             </div>
-            <div class="box4">
+            <div class="box4 d-grid grid-area">
               <div class="description">
                 <p>
                   STILL NOT ENOUGH TIME There has not been enough time to carry
@@ -304,7 +304,7 @@
           <p>By LARRY BUCHANAN and JONATHAN CORUM</p>
         </footer>
       </div>
-      <div class="container">
+      <div class="container d-grid">
         <div>
           <p class="main-text">
             Dr. Kovac said the chance that the results were a fluke was only one
@@ -567,8 +567,8 @@
           </div>
         </div>
       </div>
-      <div class="more-articles">
-        <div class="left-div">
+      <div class="more-articles m-0-auto">
+        <div class="left-div m-0-auto">
           <a class="dec-none" href="#"><h2>More in Space and Astronomy</h2></a>
           <div class="flex-container d-flex georgia">
             <div class="flex-item georgia">
@@ -775,14 +775,16 @@
       </div>
     </main>
     <nav class="bottom-nav w-100">
-      <div class="enclosing-div">
-        <div class="flex-container d-flex">
+      <div class="enclosing-div m-0-auto">
+        <div class="flex-container d-flex space-between">
           <div class="logo-div">
             <img src="./img/NYT-logo.png" alt="NYT-logo" class="nyt-logo" />
           </div>
-          <a class="go" href="#">Go to the Home Page</a>
+          <a class="go fs-11px" href="#">Go to the Home Page</a>
         </div>
-        <div class="last-flex-container d-flex bottom-sections-container">
+        <div
+          class="last-flex-container d-flex space-between bottom-sections-container"
+        >
           <section class="fw-300">
             <h3>NEWS</h3>
             <ul>
@@ -939,15 +941,21 @@
               </li>
             </ul>
             <ul class="second-special-ul line-below">
-              <li><a class="dec-none" href="#">Email Newsletters</a></li>
-              <li><a class="dec-none" href="#">Corporate Subscriptions</a></li>
-              <li><a class="dec-none" href="#">Education Rate</a></li>
+              <li>
+                <a class="dec-none fs-11px" href="#">Email Newsletters</a>
+              </li>
+              <li>
+                <a class="dec-none fs-11px" href="#">Corporate Subscriptions</a>
+              </li>
+              <li><a class="dec-none fs-11px" href="#">Education Rate</a></li>
             </ul>
             <ul class="second-special-ul space-above">
-              <li><a class="dec-none" href="#">Mobile Applications</a></li>
-              <li><a class="dec-none" href="#">Replica Editon</a></li>
-              <li><a class="dec-none" href="#">Español</a></li>
-              <li><a class="dec-none" href="#">中文网</a></li>
+              <li>
+                <a class="dec-none fs-11px" href="#">Mobile Applications</a>
+              </li>
+              <li><a class="dec-none fs-11px" href="#">Replica Editon</a></li>
+              <li><a class="dec-none fs-11px" href="#">Español</a></li>
+              <li><a class="dec-none fs-11px" href="#">中文网</a></li>
             </ul>
           </section>
         </div>
@@ -976,7 +984,7 @@
       <div>
         <p>Access more of The Times by creating a free account or logging in</p>
       </div>
-      <div>
+      <div class="space-between">
         <p>Expand</p>
         <i class="fas fa-chevron-up"></i>
       </div>
