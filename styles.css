@@ -16,6 +16,10 @@ body {
   width: 100%;
 }
 
+.w-1000 {
+  width: 1000px;
+}
+
 .black {
   color: #000;
 }
@@ -34,6 +38,18 @@ body {
 
 .fw-300 {
   font-weight: 300;
+}
+
+.fs-16px {
+  font-size: 16px;
+}
+
+.fs-15px {
+  font-size: 15px;
+}
+
+.grid-col-rep4-1fr {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /* -------------------- THE NAVBAR --------------- */
@@ -127,7 +143,6 @@ header {
 }
 
 figcaption {
-  font-size: 15px;
   line-height: 20px;
   margin-right: 7px;
   color: #666;
@@ -207,7 +222,6 @@ figcaption span {
 
 ul {
   list-style: none;
-  font-size: 15px;
   line-height: 19px;
   text-align: center;
 }
@@ -217,7 +231,6 @@ ul {
   width: 169px;
   margin: 3px auto 18px auto;
   color: #326891;
-  font-size: 15px;
   line-height: 19px;
 }
 
@@ -277,8 +290,6 @@ aside {
 
 .wrapper {
   display: grid;
-  width: 1000px;
-  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 155px);
 }
 
@@ -299,8 +310,6 @@ aside {
   grid-row-start: 2;
   grid-row-end: 3;
   display: grid;
-  width: 1000px;
-  grid-template-columns: repeat(4, 1fr);
 }
 
 .box3 {
@@ -316,8 +325,6 @@ aside {
   grid-row-start: 4;
   grid-row-end: 5;
   display: grid;
-  width: 1000px;
-  grid-template-columns: repeat(4, 1fr);
 }
 
 .second-footer {
@@ -376,7 +383,6 @@ aside {
 }
 
 .left-div h2 {
-  font-size: 16px;
   margin-top: 20px;
 }
 
@@ -430,7 +436,6 @@ aside {
 }
 
 .right-div h2 {
-  font-size: 16px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -494,10 +499,6 @@ aside {
 
 .enclosing-div ul {
   text-align: start;
-}
-
-.bottom-nav .enclosing-div .special-ul a {
-  font-size: 16px;
 }
 
 .bottom-nav .enclosing-div .second-special-ul a {
@@ -565,7 +566,6 @@ aside {
   height: 60px;
   border-top: 1px solid #000;
   text-align: center;
-  font-size: 15px;
   padding: 15px 30px;
   z-index: 50;
 }
